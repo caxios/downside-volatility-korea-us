@@ -114,3 +114,7 @@ Every run that reads test-period data appends a line to `logs/test_access.log`. 
 ## How the code was written
 
 The code and the analyses were produced with an AI coding assistant (Claude Code, Anthropic). See the declaration of generative AI use at the end of the paper for the division of work between the author and the assistant.
+
+## License
+
+The code is released under the MIT License (`LICENSE`). The license does not cover the data, which remain subject to the providers' terms.
