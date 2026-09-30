@@ -32,3 +32,6 @@ paper/main_test.*
 *.bbl
 *.synctex.gz
 paper/main.pdf
+*.synctex(busy)
+*.fdb_latexmk
+*.fls
