@@ -1,0 +1,28 @@
+{
+  "name": "S5",
+  "frozen_at": "2026-09-29T13:42:08",
+  "sha256": "292324739ed3a80354da676f75f99d565505b1322832414c3d2ce244dadff82d",
+  "rules": {
+    "source": "Amaya, Christoffersen, Jacobs & Vasquez (2015, JFE) - weekly realized skewness",
+    "signal_main": "이번 주(월~일) 일별 로그수익률의 실현 왜도, 주당 수익률 4개 이상",
+    "signal_robust": "주 마지막 거래일 기준 최근 22거래일 실현 왜도",
+    "rebalance": "매주, 그 주 마지막 거래일 종가에 결정 → 다음 주 보유",
+    "portfolio": "10분위, 롱숏 = 최저 왜도(1분위) − 최고 왜도(10분위), 동일가중·가치가중(미국 거래대금, 한국 시가총액)",
+    "long_only": "최저 왜도 10분위 매수 (비교: 유니버스 동일가중)",
+    "universe": "결정 주 직전 월말 패널 구성원 (미국 S&P 500 과거 구성, 한국 시가총액 상위 200)",
+    "costs": {
+      "US": {
+        "oneway": 0.0005,
+        "sell_tax": 0.0
+      },
+      "KR": {
+        "oneway": 0.001,
+        "sell_tax": 0.0018
+      }
+    },
+    "dev": "보유 주 2010-01 ~ 2020-12",
+    "test": "보유 주 2021-01 ~",
+    "tests": "분위 수익률, 롱숏 NW t(시차 4), 비용 차감, Carhart 4요인(+단기반전) 알파(미국), CAPM(한국), 주간 Fama-MacBeth(REV·RVOL·SIZE 통제)",
+    "intraday": "60분봉(약 3년)·5분봉(약 12주) 주간 실현 왜도, 50종목 5분위 동일가중 (예비)"
+  }
+}

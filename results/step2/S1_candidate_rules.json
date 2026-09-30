@@ -1,0 +1,40 @@
+{
+  "US": {
+    "regime_model": "jm",
+    "lambda": 5.0,
+    "jm_features": "vol",
+    "halflives": [
+      5,
+      10,
+      21
+    ],
+    "sigma_target": 0.8343976788991818,
+    "rule": "A",
+    "buffer": 0.0,
+    "cost_oneway": 0.0002,
+    "turbulent_weight_c": 0.0,
+    "expected": {
+      "sharpe": 0.7083241627622683,
+      "max_dd": -0.15068200163698153
+    }
+  },
+  "KR": {
+    "regime_model": "jm",
+    "lambda": 5.0,
+    "jm_features": "vol",
+    "halflives": [
+      5,
+      10,
+      21
+    ],
+    "sigma_target": 0.8551666778119913,
+    "rule": "A",
+    "buffer": 0.0,
+    "cost_oneway": 0.0008,
+    "turbulent_weight_c": 0.0,
+    "expected": {
+      "sharpe": 0.5358092950172938,
+      "max_dd": -0.2517826313020295
+    }
+  }
+}

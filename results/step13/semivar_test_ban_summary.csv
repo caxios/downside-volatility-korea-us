@@ -1,0 +1,7 @@
+,,sum,sum,sum,count,count,count
+test,,diff,down,up,diff,down,up
+market,sample,,,,,,
+KR,excl_ban,0,0,0,9,9,9
+KR,full,0,0,0,9,9,9
+US,excl_ban,6,9,0,9,9,9
+US,full,3,8,0,9,9,9

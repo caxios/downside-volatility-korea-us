@@ -1,0 +1,45 @@
+{
+  "name": "S1",
+  "frozen_at": "2026-09-27T09:32:48",
+  "sha256": "c6bf0fe3c487ae5faadf114ba1dd5cb7695d76e56ad8f7b1ac0e969a26e91047",
+  "rules": {
+    "US": {
+      "regime_model": "jm",
+      "lambda": 5.0,
+      "jm_features": "vol",
+      "halflives": [
+        5,
+        10,
+        21
+      ],
+      "sigma_target": 0.8343976788991818,
+      "rule": "A",
+      "buffer": 0.0,
+      "cost_oneway": 0.0002,
+      "turbulent_weight_c": 0.0,
+      "expected": {
+        "sharpe": 0.7083240141248756,
+        "max_dd": -0.15068158984360824
+      }
+    },
+    "KR": {
+      "regime_model": "jm",
+      "lambda": 5.0,
+      "jm_features": "vol",
+      "halflives": [
+        5,
+        10,
+        21
+      ],
+      "sigma_target": 0.8551666778119913,
+      "rule": "A",
+      "buffer": 0.0,
+      "cost_oneway": 0.0008,
+      "turbulent_weight_c": 0.0,
+      "expected": {
+        "sharpe": 0.5358095423191692,
+        "max_dd": -0.25178189692269815
+      }
+    }
+  }
+}

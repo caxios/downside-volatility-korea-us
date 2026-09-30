@@ -1,0 +1,63 @@
+{
+  "name": "S1v2",
+  "frozen_at": "2026-09-29T21:06:20",
+  "sha256": "a4a0323a597982e6f67f9cecd9d5ce9b105e5426464b93e106575c34e4b5478d",
+  "rules": {
+    "US": {
+      "candidate": "LHAR_h1",
+      "model": "LHAR",
+      "h": 1,
+      "features": [
+        "lRV",
+        "lRV_w",
+        "lRV_m",
+        "L",
+        "L_w",
+        "L_m"
+      ],
+      "sigma_target": 0.8343976788991818,
+      "buffer": 0.1,
+      "cost_oneway": 0.0002,
+      "min_train": 1000,
+      "refit_every": 22,
+      "expected": {
+        "sharpe": 0.6264218380191294,
+        "max_dd": -0.3790803715785158
+      },
+      "dev_sharpe_all": {
+        "LHAR_h1": 0.6264218380191294,
+        "LHAR_h22": 0.6133538565314753,
+        "LUHAR_h1": 0.5724701604793331,
+        "LUHAR_h22": 0.5916371935891487
+      }
+    },
+    "KR": {
+      "candidate": "LHAR_h22",
+      "model": "LHAR",
+      "h": 22,
+      "features": [
+        "lRV",
+        "lRV_w",
+        "lRV_m",
+        "L",
+        "L_w",
+        "L_m"
+      ],
+      "sigma_target": 0.9104439696185718,
+      "buffer": 0.1,
+      "cost_oneway": 0.0008,
+      "min_train": 1000,
+      "refit_every": 22,
+      "expected": {
+        "sharpe": 0.532815803237069,
+        "max_dd": -0.2880906632971141
+      },
+      "dev_sharpe_all": {
+        "LHAR_h1": 0.5027966064750526,
+        "LHAR_h22": 0.532815803237069,
+        "LUHAR_h1": 0.5195406833669672,
+        "LUHAR_h22": 0.5201096467474915
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+,family,test,estimate,t,p,abs_t_equiv,m_family,p_holm,p_bh,sig_raw,sig_holm,sig_bh,pass_HLZ_t3
+0,초과수익_dev,US S4_20_rel − EW_universe,0.78,0.72,0.472,0.72,12.0,1.0,0.708,False,False,False,False
+1,초과수익_dev,US S4_20_rel − ETF,1.49,0.81,0.415,0.81,12.0,1.0,0.708,False,False,False,False
+2,초과수익_dev,US U_only_20 − EW_universe,1.07,0.43,0.668,0.43,12.0,1.0,0.7287272727272728,False,False,False,False
+3,초과수익_dev,US U_only_20 − ETF,1.78,0.53,0.598,0.53,12.0,1.0,0.7287272727272728,False,False,False,False
+4,초과수익_dev,US R_only_20 − EW_universe,0.92,0.5,0.617,0.5,12.0,1.0,0.7287272727272728,False,False,False,False
+5,초과수익_dev,US R_only_20 − ETF,1.62,0.96,0.338,0.96,12.0,1.0,0.708,False,False,False,False
+6,초과수익_test,US S4_20_rel − EW_universe,5.4,1.74,0.082,1.74,12.0,0.902,0.336,False,False,False,False
+7,초과수익_test,US S4_20_rel − ETF,2.2,0.57,0.57,0.57,12.0,1.0,0.6839999999999999,False,False,False,False
+8,초과수익_test,US U_only_20 − EW_universe,6.72,1.59,0.112,1.59,12.0,1.0,0.336,False,False,False,False
+9,초과수익_test,US U_only_20 − ETF,3.53,0.8,0.421,0.8,12.0,1.0,0.6053333333333334,False,False,False,False
+10,초과수익_test,US R_only_20 − EW_universe,5.96,2.06,0.04,2.06,12.0,0.48,0.336,True,False,False,False
+11,초과수익_test,US R_only_20 − ETF,2.77,0.75,0.454,0.75,12.0,1.0,0.6053333333333334,False,False,False,False
+12,초과수익_dev,KR S4_30_abs − EW_universe,-1.71,-0.86,0.388,0.86,12.0,1.0,0.708,False,False,False,False
+13,초과수익_dev,KR S4_30_abs − ETF,-5.62,-1.38,0.167,1.38,12.0,1.0,0.668,False,False,False,False
+14,초과수익_dev,KR U_only_20 − EW_universe,-0.9,-0.31,0.756,0.31,12.0,1.0,0.7559999999999999,False,False,False,False
+15,초과수익_dev,KR U_only_20 − ETF,-4.81,-0.91,0.365,0.91,12.0,1.0,0.708,False,False,False,False
+16,초과수익_dev,KR R_only_20 − EW_universe,-5.48,-3.42,0.001,3.42,12.0,0.012,0.012,True,True,True,True
+17,초과수익_dev,KR R_only_20 − ETF,-9.39,-3.05,0.002,3.05,12.0,0.022,0.012,True,True,True,True
+18,초과수익_test,KR S4_30_abs − EW_universe,0.42,0.14,0.892,0.14,12.0,1.0,0.9730909090909091,False,False,False,False
+19,초과수익_test,KR S4_30_abs − ETF,-11.1,-1.18,0.24,1.18,12.0,1.0,0.48,False,False,False,False
+20,초과수익_test,KR U_only_20 − EW_universe,0.15,0.02,0.981,0.02,12.0,1.0,0.981,False,False,False,False
+21,초과수익_test,KR U_only_20 − ETF,-11.36,-1.31,0.189,1.31,12.0,1.0,0.45359999999999995,False,False,False,False
+22,초과수익_test,KR R_only_20 − EW_universe,-5.38,-0.91,0.365,0.91,12.0,1.0,0.6053333333333334,False,False,False,False
+23,초과수익_test,KR R_only_20 − ETF,-16.89,-1.67,0.094,1.67,12.0,0.94,0.336,False,False,False,False
+24,신호IC_dev,US U,0.0035784224037654,0.1907854776164618,0.8486936668802496,0.1907854776164618,4.0,1.0,0.94265265614551,False,False,False,False
+25,신호IC_dev,US R,0.0087930294184429,0.6154720011090311,0.5382430543611803,0.6154720011090311,4.0,1.0,0.94265265614551,False,False,False,False
+26,신호IC_test,US U,0.0076698022639042,0.3460140420502761,0.7293321617959846,0.3460140420502761,4.0,0.7293321617959846,0.7293321617959846,False,False,False,False
+27,신호IC_test,US R,0.0292104987945275,1.61848724698409,0.1055576330183481,1.61848724698409,4.0,0.2111152660366962,0.1407435106911308,False,False,False,False
+28,신호IC_dev,KR U,-0.0127548059975947,-1.0723412994815886,0.28356676321841745,1.0723412994815886,4.0,1.0,0.94265265614551,False,False,False,False
+29,신호IC_dev,KR R,-0.0007493565880285,-0.0719362315193182,0.94265265614551,0.0719362315193182,4.0,1.0,0.94265265614551,False,False,False,False
+30,신호IC_test,KR U,-0.0548692032365484,-2.6908986037763643,0.007125984961885188,2.6908986037763643,4.0,0.021377954885655564,0.014251969923770376,True,True,True,False
+31,신호IC_test,KR R,-0.0766049441811706,-4.094262397026351,4.2351446891072055e-05,4.094262397026351,4.0,0.00016940578756428822,0.00016940578756428822,True,True,True,True

@@ -1,0 +1,24 @@
+{
+  "US": {
+    "entry_pct": 0.2,
+    "exit_rule": "rel",
+    "max_weight": 0.05,
+    "cost_oneway": 0.0005,
+    "sell_tax": 0.0,
+    "min_train_months": 24,
+    "dev_sharpe": 0.925369220612154,
+    "dev_EW_sharpe": 0.9389417517754561,
+    "dev_start_realized": "2010-01"
+  },
+  "KR": {
+    "entry_pct": 0.3,
+    "exit_rule": "abs",
+    "max_weight": 0.05,
+    "cost_oneway": 0.001,
+    "sell_tax": 0.0018,
+    "min_train_months": 24,
+    "dev_sharpe": 0.11532904622322064,
+    "dev_EW_sharpe": 0.22032460040974486,
+    "dev_start_realized": "2012-02"
+  }
+}

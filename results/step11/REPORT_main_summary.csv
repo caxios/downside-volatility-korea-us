@@ -1,0 +1,8 @@
+family,m,raw_p<0.05,Holm<0.05,BH<0.05,|t|>3
+H1,6,5,3,3,3
+H2,30,0,0,0,0
+H3,16,2,1,1,1
+H4_country_placebo,4,0,0,0,0
+H4_country_placebo_clean,4,0,0,0,0
+H4_country_t,4,0,0,0,0
+H5,10,2,0,0,0

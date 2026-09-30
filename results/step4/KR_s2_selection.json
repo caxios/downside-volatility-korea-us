@@ -1,0 +1,58 @@
+{
+  "selected_signals": {},
+  "report": {
+    "RSJ": {
+      "pass": false,
+      "direction": 1,
+      "reasons": [
+        "중립화 IC t 부족",
+        "전반/후반 부호 불일치",
+        "분위 단조성 부족"
+      ]
+    },
+    "RSkew": {
+      "pass": false,
+      "direction": 1,
+      "reasons": [
+        "중립화 IC t 부족",
+        "전반/후반 부호 불일치",
+        "분위 단조성 부족"
+      ]
+    },
+    "MAX": {
+      "pass": false,
+      "direction": -1,
+      "reasons": [
+        "중립화 IC t 부족",
+        "전반/후반 부호 불일치",
+        "분위 단조성 부족",
+        "롱 다리 초과수익 없음"
+      ]
+    },
+    "IVOL": {
+      "pass": false,
+      "direction": -1,
+      "reasons": [
+        "중립화 IC t 부족",
+        "전반/후반 부호 불일치",
+        "롱 다리 초과수익 없음"
+      ]
+    },
+    "REV": {
+      "pass": false,
+      "direction": -1,
+      "reasons": [
+        "중립화 IC t 부족",
+        "전반/후반 부호 불일치",
+        "분위 단조성 부족",
+        "롱 다리 초과수익 없음"
+      ]
+    }
+  },
+  "criteria": {
+    "min_abs_t": 2.0,
+    "same_sign_halves": true,
+    "min_abs_monotonic": 0.8,
+    "long_leg_positive": true
+  }
+}
