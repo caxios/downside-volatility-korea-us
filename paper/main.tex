@@ -168,7 +168,7 @@ LHAR only measures the incremental effect of declines. To compare the two direct
 \begin{equation}
 y_{t+1:t+h} = c + \sum_{k\in\{d,w,m\}} \left(\beta^{+}_k RS^{+,(k)}_t + \beta^{-}_k RS^{-,(k)}_t\right) + \varepsilon_{t+h},
 \end{equation}
-where $RS^{+}_t=r_t^2\mathbb{1}\{r_t>0\}$, $RS^{-}_t=r_t^2\mathbb{1}\{r_t<0\}$, and $y$ is future $RS^{+}$, $RS^{-}$, or $RV$ averaged over $h\in\{1,5,22\}$ days. We test the total effects $\Sigma\beta^{+}$ and $\Sigma\beta^{-}$ and their difference, with Newey--West lags $\max(22,2h)$.
+where $RS^{+}_t=r_t^2\,\mathbf{1}\{r_t>0\}$, $RS^{-}_t=r_t^2\,\mathbf{1}\{r_t<0\}$, $\mathbf{1}\{\cdot\}$ is the indicator function, and $y$ is future $RS^{+}$, $RS^{-}$, or $RV$ averaged over $h\in\{1,5,22\}$ days. We test the total effects $\Sigma\beta^{+}$ and $\Sigma\beta^{-}$ and their difference, with Newey--West lags $\max(22,2h)$.
 
 Figure~\ref{fig:semivar} and Table~\ref{tab:semivar} show the results. In the development sample, $\Sigma\beta^{-}$ is positive for all nine target--horizon pairs in both markets, and significant after Holm adjustment in 5 of 9 (U.S.) and 9 of 9 (Korea) cases. $\Sigma\beta^{+}$ is never significant after adjustment. Downside semivariance predicts future \emph{upside} variance at least as strongly as future downside variance---in the U.S.\ considerably more strongly---consistent with large rebounds following sharp declines in crisis periods. Results are sharper after winsorizing the top 0.5\% of observations (Appendix Table~\ref{tab:winsor}): the U.S.\ downside effect on future downside variance, insignificant in the raw data, becomes significant at the 1- and 22-day horizons, and upside effects remain insignificant except for future U.S.\ downside variance at 5 and 22 days.
 
